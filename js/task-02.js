@@ -10,8 +10,9 @@ const ingredients = [
 
 const elementsEl = ingredients.map((option) => {
   const ingredientsItemEl = document.createElement("li");
-  ingredientsItemEl.classList.add("item");
   ingredientsItemEl.textContent = option;
+  ingredientsItemEl.classList.add("item");
+  
 
   return ingredientsItemEl;
 });
